@@ -7,9 +7,23 @@
   <script src="js/scripts.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Leap Year Calculator</title>
 </head>
 <body>
-  
+  <div class="container">
+    <div class="jumbotron text-center">
+      <h2>Leap Year Calculator </h2>
+    </div>
+    <form id="leap-year">
+      <div class="form-group">
+        <label for="year">Enter a year</label>
+        <input type="text" id="year">
+      </div>
+      <button type="submit" class="btn btn-info">Submit!</button>
+    </form>
+    <div id="answer">
+      <p><span class="leap"></span><span class="not"></span></p>
+    </div>
+  </div>
 </body>
 </html>
